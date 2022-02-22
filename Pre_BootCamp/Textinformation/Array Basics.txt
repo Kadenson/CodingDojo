@@ -1,0 +1,15 @@
+var user = ["Dwight", "Schrute", "beetsbears@battlestar.com"];// using [] creats an array
+user.push("hello"); // using the push adds to the end of the array
+user.pop();//To remove a value from the end, we use the pop method
+
+// we use this to access or update anything within the array using index numbers. The first value always begins with 0.
+var user = ["Dwight", "Schrute", "beetsbears@battlestar.com"];
+console.log(user[0]);    // reading the value -- OUTPUT: Dwight
+user[1] = "herman";    // updating the value
+console.log(user);    // ["Dwight", "Martin", "beetsbears@battlestar.com"]
+
+//Arrays also have a length property, which tells us how many values are contained in the array
+var user = ["Dwight", "Schrute", "beetsbears@battlestar.com"];
+console.log(user.length);    // 3
+user.pop();
+console.log(user.length);    // 2

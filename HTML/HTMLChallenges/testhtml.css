@@ -1,0 +1,9 @@
+body{
+    display: flex;
+}
+.left{
+    display: inline-block;
+}
+.right{
+    display: inline;
+}

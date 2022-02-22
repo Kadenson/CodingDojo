@@ -1,0 +1,22 @@
+VSC Shortcuts
+CTRL + D Change multiple instances of code
+CTRL + SHIFT + L Highlight all instances of the same code to change it
+CTRL + L Highlight entire line
+ALT + Mouse click => multiple cursors
+Shift + Tab > Indent code to the left
+Tab > Indent code to the right
+Alt + UP/DOWN KEYS => Moves lines of code up or down
+CTRL + / => comment code
+
+
+shift + alt + right/left arrows Open tabs to the right or left
+CTRL + shift + k Delete line
+CTRL + shift + [ Fold
+CTRL + k CTRL + 0 Fold all
+CTRL + shift ] Unfold
+CTRL + k CTRL + 9 Unfold all
+Alt + left/right Switch between tabs
+CTRL + shift + enter Insert line above
+CTRL + enter Insert line below
+Alt + L ALT + O open live server
+Alt + L ALT + C stop live server

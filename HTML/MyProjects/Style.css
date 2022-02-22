@@ -1,0 +1,104 @@
+    *{
+        padding: 0;
+        margin: 0;    
+    }
+    body{
+        text-align: center;
+        background: url(../images/light-colors-geometric-pattern-abstract.jpg);
+        background-size:cover;
+        color: black;
+        font-family: cursive;
+        height: 2400px;
+        background-repeat: no-repeat;
+    }
+    .header{
+        text-align: center;
+        background: url(../images/headingbackground2.jpg);
+        background-size:contain;
+    }
+    .ListOfLinks{
+        padding:10px;
+        background: url(../images/solidbackground3.jfif);
+        background-size: cover;
+        color: black;
+    }
+    .LinkText{
+        display: inline;
+        padding: 0px 40px 0px 10px;
+    }
+    .Links{ 
+        color:white;
+    }
+    input{
+        border: 2px outset pink;
+        border-radius: 50px;
+        padding: 10px;
+        font-size: 18px;
+        margin-top: 5px;
+    }
+    .button{
+        background:pink;
+        color: purple;
+        height: 45px;
+        font-size: 20px;
+        border: 2px solid rgb(177, 89, 104);
+        border-radius: 20px;
+        vertical-align: top;
+        margin-top: 5px;
+        width: 80px;
+    }
+    h1{
+        font-size: 70px;
+    }
+    img{
+        margin: 40px 0px 20px 0px;
+        border: 7px solid white;
+        border-radius: 360px;
+    }
+    p{
+        font-size: 22px;
+    }
+    article{
+        width: 500px;
+        padding: 20px;
+        margin: 0 auto;
+        color: black;
+    }
+    .middle{
+        display: inline-block;
+
+    }
+    .left{
+        margin-left: -70%;
+    }
+    /* .red{
+        color:black;
+        background-color: red;
+    }
+    .orange{
+        color:black;
+        background-color: orange;
+
+    } */
+    .yellow{
+        display: inline-block;
+    }
+    .purple{
+        display: inline;
+    }
+    #Glow{
+        font-size: 80px;
+        color: #fff;
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+        animation: glow 1s ease-in-out infinite alternate;
+        
+    }
+    @keyframes glow {
+        from {
+            text-shadow: 0 0 10px red, 0 0 20px orange, 0 0 30px yellow, 0 0 40px green, 0 0 50px blue, 0 0 60px indigo, 0 0 70px violet;
+        }
+        to {
+            text-shadow: 0 0 20px indigo, 0 0 30px blue, 0 0 40px green, 0 0 50px yellow, 0 0 60px orange, 0 0 70px red, 0 0 80px #ff4da6;
+        }
+    }

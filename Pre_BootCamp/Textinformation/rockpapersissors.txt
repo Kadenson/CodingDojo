@@ -1,0 +1,20 @@
+John:  3 rocks 6 scissors 1 paper  TOTAL WINS: 7
+       
+Marie: 2 rocks 4 sissors  4 papers TOTAL WINS: 3
+       
+1. we know that there cant be any ties so marie wouldnt play sissors when john played sissors
+2. based off the first statment we know how 6 games were played. The following were 6 of the 10 games
+John        Marie
+scissors vs rock: marie wins
+scissors vs rock: marie wins
+scissors vs paper: john wins
+scissors vs paper: john wins
+scissors vs paper: john wins
+scissors vs paper: john wins
+
+3. The last 4 games were played with the rest of her sissors and johns other hands just like this
+Marie       John
+scissors vs rock: john wins
+scissors vs rock: john wins
+scissors vs rock: john wins
+scissors vs paper: Marie wins

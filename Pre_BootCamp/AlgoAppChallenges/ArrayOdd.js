@@ -1,0 +1,10 @@
+//Write a function that would return an array of all the odd numbers between 1 to 50. (ex. [1,3,5, .... , 47,49]). Hint: Use 'push' method.
+function oddNumbers(){
+    var arr = [];
+    for(var i = 1; i < 50; i += 2){
+        arr.push(i)
+    }
+
+    return arr;
+}
+console.log(`These are all the odd numbers from 1 to 50: ${oddNumbers()}`)

@@ -1,0 +1,11 @@
+while (condition) {    
+        // what to keep doing as long as the condition is true
+    }   
+    // we get to this line when the condition in the loop is false
+
+    //example
+    var num = 0;    // start a variable at 0
+while (num <= 5) {    
+    console.log(num);    // print the current value of num    
+    num++;       // increment num by 1
+}
